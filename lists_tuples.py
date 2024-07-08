@@ -25,7 +25,7 @@ print(py[::-1])
 
 #deep in liste
 py=['django','python','ML','DL']
-py.append('ai')
+py.append('Ai')
 print("after append",py) #add an element at the end
 py.insert(3,"flask")
 print("after insert",py)
@@ -35,3 +35,34 @@ L2=['PC','new list','hello']
 py.extend(L2)
 print("after extend",py)
 print(len(py))
+
+#sorting list
+py.sort()
+print(py) #capital letter has the priority
+
+py.sort(reverse=True)
+print(py)
+
+num=[5,77,61,92,4,1,71,4,10]
+num.sort
+print(num)
+print(num.count(4))
+num.pop(2) 
+print(num)
+
+#loop on py num
+for i, value in enumerate(py):
+    print(i,value)
+    
+#condition for the py list
+if "django" in py :
+    print("exists")
+else:
+    print("doesnt exists")
+    
+print("============")
+mat=[16,8,42,15,25]
+wilaya=["Alger","Bechar","Tipaza","Tizi-ouzou","constantine"]
+for i,j in zip(mat,wilaya):
+    print(i,j)
+    
