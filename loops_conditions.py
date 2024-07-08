@@ -13,7 +13,7 @@ sign(10)
 # for loop
 for i in range(5):
     print("my 1st loop",i)
-# range can have 3 arguments
+# range can have 3 arguments rang(start,end,step)
 
  #start from the number 8 till 15
 print("==========")
