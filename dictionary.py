@@ -30,3 +30,27 @@ print(dict1.get("Alger")) #output 16
 #fromkeys method
 list1=("banana","water","tomato","kiwi","oil")
 print(dict1.fromkeys(list1,"test"))
+
+value= dict1.pop('Bejaia')
+print(value)
+print("======")
+#print all the values 
+for i in dict1.values():
+    print(i)
+print("======")
+# print the keys and values
+for i,j in dict1.items():
+    print(i,j)
+print("======")
+
+dict1={
+    '0':'frameworks',
+    '1':'python',
+    '2':'django',
+    '3':'ai'
+}
+name=['frameworks','python','django','ai']
+dico={k:v for k,v in enumerate(name)}
+print(dico)
+print(dico.keys())
+print(dico.values())
