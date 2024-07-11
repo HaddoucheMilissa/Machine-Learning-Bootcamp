@@ -30,3 +30,31 @@ print(dict1.get("Alger")) #output 16
 #fromkeys method
 list1=("banana","water","tomato","kiwi","oil")
 print(dict1.fromkeys(list1,"test"))
+
+value= dict1.pop('Bejaia')
+print(value)
+print("======")
+#print all the values 
+for i in dict1.values():
+    print(i)
+print("======")
+# print the keys and values
+for i,j in dict1.items():
+    print(i,j)
+print("======")
+
+# practice 
+# we want to print all the squares from 0 to 9 
+listSquare=[]
+for i in range (10):
+    listSquare.append(i**2)
+print(listSquare)
+print("======")
+# other method:list comprehension
+listSquare2=[i**2 for i in range(10)]
+print(listSquare)
+print("======")
+#nested list :
+nested=[[i for i in range(5)]for j in range(3) ]
+print(nested)
+
