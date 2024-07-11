@@ -16,4 +16,35 @@ print("the min is",min(l))
 print(len(l))
 #sum
 print(sum(l)) #11+9+0+43+12+99+38
+#all and any
+l2=[True,True,True,False]
+print("using all",all(l2)) 
+print("using any",any(l2))
+print("=====")
+#convert type
+x=10
+print(type(x)) #10 is an int
+print(str(x)) # 10 is a string
+y='33'
+print(type(y)) # 33 is a string
+print(int(y)) # 33 is an int
+k=12
+print(float(k))
+#convert lists / tuples
+liste1=[6,41,88,29,546] 
+print(tuple(liste1)) # output (6,41,88,29,546)
+# creat a list of dictionary's keys and values
+D={"banana":150,
+   "water":60,
+   "cherry":180,
+   "strawberry":110
+   }
+print(list(D.keys()))
+print(list(D.values()))
+
+#bases
+A=15
+print(bin(A))
+print(oct(A))
+print(hex(A))
 
