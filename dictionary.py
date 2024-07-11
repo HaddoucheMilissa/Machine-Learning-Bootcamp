@@ -43,7 +43,7 @@ for i,j in dict1.items():
     print(i,j)
 print("======")
 
-
+#dict comprehension
 dict1={
     '0':'frameworks',
     '1':'python',
@@ -55,5 +55,3 @@ dico={k:v for k,v in enumerate(name)}
 print(dico)
 print(dico.keys())
 print(dico.values())
-
-
