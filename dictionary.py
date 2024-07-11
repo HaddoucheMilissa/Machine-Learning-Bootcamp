@@ -56,17 +56,4 @@ print(dico)
 print(dico.keys())
 print(dico.values())
 
-# practice 
-# we want to print all the squares from 0 to 9 
-listSquare=[]
-for i in range (10):
-    listSquare.append(i**2)
-print(listSquare)
-print("======")
-# other method:list comprehension
-listSquare2=[i**2 for i in range(10)]
-print(listSquare)
-print("======")
-#nested list :
-nested=[[i for i in range(5)]for j in range(3) ]
-print(nested)
+
