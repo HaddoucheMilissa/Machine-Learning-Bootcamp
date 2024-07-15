@@ -87,3 +87,8 @@ for i in range(1,3):
    print("this is avg number",i)
    print(AVG["avg{}".format(i)])
    
+# open()
+# open(file name, mode)
+file=open('file.txt','w')
+file.write("Hi everyone")
+file.close
