@@ -53,7 +53,7 @@ print(hex(A))
 #while(x<= 0 or x>=100):
   # x=int(input("enter your age correctly :"))
   
-#format 
+#format()
 # withou using format 
 age=23
 name="Lyna"
@@ -67,3 +67,23 @@ x="{} is {} years old".format(name,age)
 print(x) # the output: 20 is Ali years old
 
 # other syntax using fomrmat
+age=30
+name="Yasmine"
+x=f"{name} is {age} years old"
+print(x)
+
+#format & dict
+
+import numpy as np
+
+AVG={
+   "avg1":np.random.randn(2,5),
+   "avg2":np.zeros((2,1)),
+   "avg3":np.random.randn(2,2),
+   "avg4":np.zeros((2,1))
+   
+}
+for i in range(1,3):
+   print("this is avg number",i)
+   print(AVG["avg{}".format(i)])
+   
