@@ -90,5 +90,5 @@ for i in range(1,3):
 # open()
 # open(file name, mode)
 file=open('file.txt','w')
-file.write("New file using OPEN() function ")
+file.write("Hi everyone ")
 file.close
