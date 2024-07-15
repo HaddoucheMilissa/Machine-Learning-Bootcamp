@@ -48,3 +48,22 @@ print(bin(A))
 print(oct(A))
 print(hex(A))
 
+#input 
+#x=int(input("enter your age:"))
+#while(x<= 0 or x>=100):
+  # x=int(input("enter your age correctly :"))
+  
+#format 
+# withou using format 
+age=23
+name="Lyna"
+x= "Lyna is 23 years old"
+print(x)
+
+# with format
+age=20
+name="Ali"
+x="{} is {} years old".format(name,age)
+print(x) # the output: 20 is Ali years old
+
+# other syntax using fomrmat
