@@ -91,4 +91,13 @@ for i in range(1,3):
 # open(file name, mode)
 file=open('file.txt','w')
 file.write("Hi everyone ")
-file.close
+file.close()
+file=open("file.txt",'r')
+file.read()
+# to avoid uding close() : 
+with open('file.txt','w') as file:
+   for i in range(10):
+      file.write("{}*10={}\n".format(i,i*10))
+   file.write("\n we can write right here")
+#closed automaticly
+
