@@ -29,3 +29,12 @@ print(statistics.mean(liste))
 print(statistics.variance(liste))
 print(statistics.median(liste))
 
+# RANDOM
+print(random.choice(liste))
+#print(random.seed(2)) to keep always the same result
+print(random.choice(['ai','python','ml','dl']))
+print(random.randint(10,20)) # int
+print(random.random()) # float
+print(random.randrange(30)) 
+print(random.sample(range(30),11)) # gimme a list of 11 elements their range is 30
+
